@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiplication App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loading">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading, please wait...</div>
+  </div>
+
+  <!-- App UI -->
+  <div class="app" id="app">
+    <h1>Multiplication Calculator</h1>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2"><br>
+    <button onclick="multiply()">Multiply</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
